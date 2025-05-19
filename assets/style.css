@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+form {
+  margin-bottom: 10px;
+}
+input, select, button {
+  padding: 8px;
+  margin-right: 5px;
+}
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #0056b3;
+}
+.projeto {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.kanban {
+  display: flex;
+  gap: 20px;
+}
+.coluna {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+.coluna h3 {
+  margin-top: 0;
+}
+.coluna ul {
+  list-style: none;
+  padding: 0;
+}
+.coluna li {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
+}
